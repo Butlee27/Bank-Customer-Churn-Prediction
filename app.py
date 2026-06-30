@@ -137,11 +137,11 @@ if st.button("Predict"):
 
         for g in growth_actions:
             st.write(f"• {g}")
-            # =====================================================
+            # ================================================
 #  BULK CUSTOMER CHURN PREDICTION (CSV UPLOAD)
 # =====================================================
 
-st.markdown("---")
+st.markdown("----")
 st.header(" Bulk Customer Churn Prediction")
 
 uploaded_file = st.file_uploader(
