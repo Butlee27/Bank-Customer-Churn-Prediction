@@ -141,7 +141,7 @@ if st.button("Predict"):
 #  BULK CUSTOMER CHURN PREDICTION (CSV UPLOAD)
 # =====================================================
 
-st.markdown("----")
+st.markdown("-----")
 st.header(" Bulk Customer Churn Prediction")
 
 uploaded_file = st.file_uploader(
